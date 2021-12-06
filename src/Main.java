@@ -9,11 +9,13 @@ public class Main {
         System.out.println(Arrays.toString(longs));
         ArraySortUtil.heapSort(longs);
         System.out.println(Arrays.toString(longs));
-
-        ArraySortUtil.shuttleSort(longs);
-        System.out.println(Arrays.toString(longs));
     }
-    
+
+    /**
+     * Random method
+     * @param sizeArr
+     * @return
+     */
     public static long[] randomArr (int sizeArr) {
         long[] arr = new long[sizeArr];
         Random random = new Random();
