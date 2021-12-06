@@ -13,12 +13,7 @@ public class Main {
         ArraySortUtil.shuttleSort(longs);
         System.out.println(Arrays.toString(longs));
     }
-
-    /**
-     * Random
-     * @param sizeArr
-     * @return
-     */
+    
     public static long[] randomArr (int sizeArr) {
         long[] arr = new long[sizeArr];
         Random random = new Random();
